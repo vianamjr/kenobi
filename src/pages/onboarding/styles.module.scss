@@ -1,0 +1,49 @@
+.onboardingForm {
+    display: grid;
+    width: 100vw;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    color: rgb(135, 135, 160);
+
+    label {
+        font-size: 1rem;
+        color: rgb(125, 125, 100);
+        font-weight: bold;
+    }
+
+    input,
+    select {
+        margin-top: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        color: rgb(135, 135, 160);
+        border-bottom: 1px solid rgb(125, 125, 100);
+        background: none;
+        height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    button {
+        border-radius: 0.25rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5rem;
+        background: rgb(125, 125, 100);
+        color: rgb(25, 25, 50);
+        border: none;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    h2 {
+        color: rgb(125, 125, 100);
+        justify-self: center;
+    }
+}
