@@ -6,14 +6,14 @@ import { NavButton } from '../../components/NavButton';
 
 export default function Index() {
 	const onboardings = [
-		{ name: 'Anakin', role: 'Jedi', status: 'created', tasks: [{ description: 'some bla', isCompleted: false }] },
+		{ name: 'Helio', role: 'Assessor', status: 'created', tasks: [{ description: 'some bla', isCompleted: false }] },
 		{
-			name: 'Lea', role: 'Princes', status: 'created', tasks: [
-				{ description: 'kill Anakin', isCompleted: true },
-				{ description: 'don\'t die', isCompleted: false },
-				{ description: 'do something useful', isCompleted: true },
-				{ description: 'do another things', isCompleted: false },
-				{ description: 'don\'t die, ok, can die', isCompleted: false },
+			name: 'Blanco', role: 'SDR', status: 'created', tasks: [
+				{ description: 'email', isCompleted: true },
+				{ description: 'moskit', isCompleted: false },
+				{ description: 'telefonia', isCompleted: true },
+				{ description: 'registro rh', isCompleted: false },
+				{ description: 'alguma outra coisa', isCompleted: false },
 			]
 		},
 	] as Onboarding[];
